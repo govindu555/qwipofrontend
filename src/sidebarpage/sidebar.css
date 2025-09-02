@@ -1,0 +1,19 @@
+.sidemain{
+    width: 10vw;
+    height: 90vh;
+    position: fixed;
+    top: 50px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.sidehead{
+    font-size: 18px;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.sidehead:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}

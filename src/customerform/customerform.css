@@ -1,0 +1,44 @@
+.formmain{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.mainhead{
+    font-size: 30px;
+    color: blue;
+    margin-top: 100px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.formitems{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formitem{
+    font-size: 18px;
+}
+
+.forminput{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+.customersubmit{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.customersubmit:hover{
+    cursor: pointer;
+}

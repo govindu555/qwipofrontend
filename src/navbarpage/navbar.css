@@ -1,0 +1,13 @@
+.navmain{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0%;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.navhead{
+    font-size: 30px;
+    color: blue;
+    margin-left: 10px;
+}

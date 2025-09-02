@@ -1,0 +1,15 @@
+.customermain{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.customerhead{
+    font-size: 20px;
+}
+
+.customeradd{
+    background-color: blue;
+    color: white;
+    margin-left: 50px;
+}

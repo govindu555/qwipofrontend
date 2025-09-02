@@ -1,0 +1,48 @@
+.customermainlist{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.customermainlist2{
+    box-shadow: 2px 2px 2px blue;
+}
+
+.customerheads{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.customerhead2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin: 20px;
+}
+
+.customerhead3{
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.customer1{
+    font-size: 18px;
+}
+
+.customer2{
+    font-size: 15px;
+    background-color: rgb(235, 235, 235);
+    height: 35px;
+    padding: 5px;
+}
+
+.back{
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.back:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 20px;
+}
