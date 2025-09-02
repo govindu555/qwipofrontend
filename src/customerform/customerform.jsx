@@ -27,7 +27,7 @@ const CustomerFormPage=()=>{
 
     async function submitfun(e){
         e.preventDefault();
-        await axios.post("https://qwipobackend-tst5.onrender.com/customerdata",customerdata)
+        await axios.post("https://qwipobackend-1-gujp.onrender.com/customerdata",customerdata)
         const conform=window.confirm("Are You Sure...")
         if(conform==true){
            nav("/customerlist")

@@ -32,7 +32,7 @@ const CustomerEditPage=()=>{
 
     async function submitfun(e){
         e.preventDefault();
-        await axios.put("https://qwipobackend-tst5.onrender.com/customeredit/"+id,customerdata)
+        await axios.put("https://qwipobackend-1-gujp.onrender.com/customeredit/"+id,customerdata)
         const conform=window.confirm("Are You Sure...")
         if(conform==true){
            nav("/customerlist")

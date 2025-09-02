@@ -23,7 +23,7 @@ const CustomerDetailsPage=()=>{
 
 
     async function customerfun(){
-        const data= await axios.get("https://qwipobackend-tst5.onrender.com/getcustomer")
+        const data= await axios.get("https://qwipobackend-1-gujp.onrender.com/getcustomer")
         setCustomerdata(data.data)
         setSearchdata(data.data)
     }
@@ -35,7 +35,7 @@ const CustomerDetailsPage=()=>{
     }
 
     async function deletefun(id){
-             const data=await axios.delete("https://qwipobackend-tst5.onrender.com/customerdelete/"+id)
+             const data=await axios.delete("https://qwipobackend-1-gujp.onrender.com/customerdelete/"+id)
              setCustomerdata(data.data)
     }
 

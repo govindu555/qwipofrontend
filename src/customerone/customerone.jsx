@@ -20,7 +20,7 @@ const CustomerOnePage=()=>{
     },[])
 
     async function customerfun(){
-          const data=await axios.get("https://qwipobackend-tst5.onrender.com/onecustomer/"+id)
+          const data=await axios.get("https://qwipobackend-1-gujp.onrender.com/onecustomer/"+id)
           setCustomerdata(data.data)
     }
 
